@@ -1,0 +1,27 @@
+{{>headLink}}
+{{>header}}
+
+    <div class="input-form">
+        <form action="" class="search-form">
+        <input class="input-city" "text" id="cityName" placeholder="search by city name" autocomplete="off">
+        <input class="submit-button" "submit" value="search" id="submitBtn"/>
+        </form>
+    </div>
+    <div class="weather-info">
+        <div class="date" >
+            <h4 id="curDay">Teusday</h4>
+            <h4 id="curDate">5 Dec</h4>
+        </div>
+        <div class="city-name">
+            <p id="cityInfo"></p>
+        </div>
+        <div class="temp-info  data_hide">
+               <p><span id="tempInfo"> 26 </span><sup>o</sup>C </p> 
+                 <p id="tempSatuts"><i class="fa-solid fa-cloud"></i></p>
+        </div>
+
+    </div>
+<script src="js/main.js">  
+</script>
+
+{{>footer}}
